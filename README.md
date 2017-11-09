@@ -1,4 +1,4 @@
-# Deep Learning, Machine Learning, and Data Science Prerequisites: The Numpy Stack in Python.
+# Deep Learning, Machine Learning, and Data Science Prerequisites: The Numpy Stack in Python
 
 1.  **Numpy** - Foundation for arrays/vectors.
 
