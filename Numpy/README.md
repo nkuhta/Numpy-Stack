@@ -1,6 +1,6 @@
 # Numpy
 
-1.  **Numpy.ipynb**  
+1.  **[Numpy.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Numpy/Numpy.ipynb)**  
 &ensp;  Lists, (numpy) Arrays, element-wise math operations
 &ensp;   
 
