@@ -1,6 +1,6 @@
 # Pandas
 
-1.  **[Pandas.ipynb]**  
+1.  **[Pandas.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Pandas/Pandas.ipynb)**  
 &ensp;  Manual data loading  
 &ensp;  
 
