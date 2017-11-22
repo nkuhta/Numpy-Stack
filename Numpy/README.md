@@ -1,8 +1,8 @@
 # Numpy
 
 1.  **[Numpy.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Numpy/Numpy.ipynb)**  
-&ensp;  Lists, (numpy) Arrays, element-wise math operations, dot product method and time savings vs. for loops,
-&ensp;  vector and matrix indexing and creation, random numbers, 
+&ensp;  Lists, (numpy) Arrays, element-wise math operations, dot product method and time savings vs. for loops, vector and
+&ensp;  matrix indexing and creation, random numbers, 
 
 
  
