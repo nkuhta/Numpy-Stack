@@ -1,6 +1,6 @@
 # Scipy
 
-1.  **[Scipy.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Matplotlib/Matplotlib.ipynb)**  
+1.  **[Scipy.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Scipy/Scipy.ipynb)**  
 &ensp;  Gaussian PDF and CDF, 
 
  
