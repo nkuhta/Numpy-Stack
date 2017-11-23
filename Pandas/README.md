@@ -3,7 +3,7 @@
 1.  **[Pandas.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Pandas/Pandas.ipynb)**  
 &ensp;  Manual data loading, dataframes, as.matrix() conversion, grabbing columns and row elements, boolean      
 &ensp;  dataframe selection, renaming columns, adding new dataframe columns, apply() to make new data columns,  
-&ensp;  joins.
+&ensp;  joins with pd.merge(t1,t2, on = "common variable").
 
  
 #  References
