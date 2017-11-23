@@ -1,7 +1,7 @@
 # Scipy
 
 1.  **[Scipy.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Scipy/Scipy.ipynb)**  
-&ensp;  Gaussian PDF and CDF, logpdf(), logcdf(), Sampling from PDF in 1D/2D.  
+&ensp;  Gaussian PDF and CDF, logpdf(), logcdf(), Sampling from PDF in 1D/2D, FFT and other useful Scipy libraries.  
 
  
 #  References
