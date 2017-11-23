@@ -1,7 +1,7 @@
 # Matplotlib
 
 1.  **[Matplotlib.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Matplotlib/Matplotlib.ipynb)**  
-&ensp;  Line Chart, Scatterplot, Histogram, Plotting Images. 
+&ensp;  Line Chart, xlabels, ylabels, title, Scatterplots, Histogram, Plotting Images. 
 
  
 #  References
