@@ -2,7 +2,8 @@
 
 1.  **[Pandas.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Pandas/Pandas.ipynb)**  
 &ensp;  Manual data loading, dataframes, as.matrix() conversion, grabbing columns and row elements,     
-&ensp;  boolean dataframe selection, renaming columns, adding new dataframe columns, apply()
+&ensp;  boolean dataframe selection, renaming columns, adding new dataframe columns, apply() to make new data columns,  
+&ensp;  joins.
 
  
 #  References
