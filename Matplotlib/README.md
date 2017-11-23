@@ -1,6 +1,6 @@
 # Matplotlib
 
-1.  **[Matplotlib.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Pandas/Pandas.ipynb)**  
+1.  **[Matplotlib.ipynb](https://github.com/nkuhta/Numpy-Stack/blob/master/Matplotlib/Matplotlib.ipynb)**  
 &ensp;  Line Chart, Scatterplot, Histogram, Plotting Images. 
 
  
