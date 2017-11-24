@@ -63,7 +63,8 @@ input('Press Enter to move onto Problem #2...')
 print('')
 print('Problem #2:  Demonstrate the Central Limit Theorem (CLT)')
 print("*************************************************************")
-print('Find the Gaussian Distribution of the addition of Independent and Identically distributed random values')
+print('Find the Gaussian Distribution of the addition of ')
+print('Independent and Identically distributed random values')
 print('')
 
 Ylen = 1000
@@ -77,7 +78,7 @@ for i in range(Ylen):
 plt.hist(Y,bins=20)
 plt.show()
 
-#   Note you need to close figure to move onto Problem #3
+#   Note you need to close figure to move onto Problem #5
 input('Press Enter to move onto Problem #5...')
 
 ###########################################################################
@@ -106,3 +107,15 @@ print('')
 
 print('Is A1 Symmetric: ',is_symmetric(A1))
 print('Is A2 Symmetric: ',is_symmetric(A2))
+
+#   Note you need to close figure to move onto Problem #6
+input('Press Enter to move onto Problem #6...')
+
+###########################################################################
+########    Problem #6:  Generate and Plot the XOR Dataset      ###########
+###########################################################################
+
+print('')
+print('Problem #6:  Generate and Plot XOR Dataset ')
+print("*************************************************************")
+print('')
