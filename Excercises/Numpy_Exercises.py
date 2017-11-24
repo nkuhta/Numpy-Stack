@@ -66,12 +66,12 @@ print("*************************************************************")
 print('Find the Gaussian Distribution of the addition of Independent and Identically distributed random values')
 print('')
 
-Ylen=1000
+Ylen = 1000
 
 Y=np.zeros(Ylen)
 
 for i in range(Ylen):
-    x=np.random.random(1000)
+    x = np.random.random(1000)
     Y[i]=sum(x)
 
 plt.hist(Y,bins=20)
