@@ -78,8 +78,31 @@ plt.hist(Y,bins=20)
 plt.show()
 
 #   Note you need to close figure to move onto Problem #3
-input('Press Enter to move onto Problem #3...')
+input('Press Enter to move onto Problem #5...')
 
 ###########################################################################
-########  Problem #3:  Demonstrate the Central Limit Theorem    ###########
+########     Problem #5:  Is a Matrix Symmetric Function        ###########
 ###########################################################################
+
+print('')
+print('Problem #5:  Is a Matrix Symmetric?  ie. M == M_Transpose ')
+print("*************************************************************")
+print('write and use is_symmetric() function')
+print('')
+
+#  Returns True if matrix is Symmetric and False if not-symmetric
+def is_symmetric(M):
+    return np.array_equal(M,M.transpose())
+
+A1 = np.array([[1,2],[2,1]])
+A2 = np.array([[1,2],[3,4]])
+
+print('A1 = ',A1)
+print('')
+print('A2 = ',A2)
+print('')
+
+#print(np.array_equal(A2,A2.transpose()))
+
+print('Is A1 Symmetric: ',is_symmetric(A1))
+print('Is A2 Symmetric: ',is_symmetric(A2))

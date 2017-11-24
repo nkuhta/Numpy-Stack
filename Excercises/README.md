@@ -1,7 +1,7 @@
 # Exercises
 
 1.  **[Numpy_Exercises.py](https://github.com/nkuhta/Numpy-Stack/blob/master/Scipy/Scipy.ipynb)**  
-&ensp;  Finding Eigenvectors using iteration method, Determining the Central Limit Theorem numerically,
+&ensp;  Finding eigenvectors using iteration method, determining the central limit theorem numerically,
 
  
 #  References
