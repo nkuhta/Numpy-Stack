@@ -63,7 +63,7 @@ input('Press Enter to move onto Problem #2...')
 print('')
 print('Problem #2:  Demonstrate the Central Limit Theorem (CLT)')
 print("*************************************************************")
-print('Find the Gaussian Distribution of the addition of ')
+print('Finding the Gaussian Distribution from the addition of ')
 print('Independent and Identically distributed random values')
 print('')
 
@@ -107,6 +107,7 @@ print('')
 
 print('Is A1 Symmetric: ',is_symmetric(A1))
 print('Is A2 Symmetric: ',is_symmetric(A2))
+print('')
 
 #   Note you need to close figure to move onto Problem #6
 input('Press Enter to move onto Problem #6...')
