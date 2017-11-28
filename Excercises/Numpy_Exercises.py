@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.spatial import distance
-# import sys
 
 ###########################################################################
 ########  Problem #1:  EigenVectors using Euclidean Distance Method  ######
@@ -182,3 +181,82 @@ plt.xlim(-30,30)
 plt.ylim(-30,30)
 plt.axes().set_aspect('equal')
 plt.show()
+
+
+###########################################################################
+##########      Problem #8:  Mutiple Sprirals Dataset         #############
+###########################################################################
+
+print('')
+print('Problem #8:  Generate/Plot Mutiple Spirals ')
+print("********************************************")
+print('')
+
+#  Cartesian X-value function
+def xcart(r,theta):
+    return np.sqrt(r**2/(1+np.tan(theta)**2))
+
+#  Cartesian Y-value function
+def ycart(r,theta):
+    return np.tan(theta)*np.sqrt(r**2/(1+np.tan(theta)**2))
+
+tsteps=200
+
+#  Here is a brute force method without thoughtful colar scheme
+#  Six sets of theta values all stepping in time.
+#  Reuse the same R series for all theta
+
+r1 = np.linspace(0.1,10,200)#+np.random.random(200)
+theta1=np.linspace(0,2*np.pi/6,tsteps)
+theta2=np.linspace(2*np.pi/6,4*np.pi/6,tsteps)
+theta3=np.linspace(4*np.pi/6,6*np.pi/6,tsteps)
+theta4=np.linspace(6*np.pi/6,8*np.pi/6,tsteps)
+theta5=np.linspace(8*np.pi/6,10*np.pi/6,tsteps)
+theta6=np.linspace(10*np.pi/6,12*np.pi/6,tsteps)
+
+#  6 (x,y) series from the polar data, with Cartesian noise added on
+x1=xcart(r1,theta1)+np.random.random(tsteps)
+y1=ycart(r1,theta1)+np.random.random(tsteps)
+x2=xcart(r1,theta2)+np.random.random(tsteps)
+y2=ycart(r1,theta2)+np.random.random(tsteps)
+x3=xcart(r1,theta3)+np.random.random(tsteps)
+y3=ycart(r1,theta3)+np.random.random(tsteps)
+x4=-xcart(r1,theta4)+np.random.random(tsteps)
+y4=-ycart(r1,theta4)+np.random.random(tsteps)
+x5=-xcart(r1,theta5)+np.random.random(tsteps)
+y5=-ycart(r1,theta5)+np.random.random(tsteps)
+x6=-xcart(r1,theta6)+np.random.random(tsteps)
+y6=-ycart(r1,theta6)+np.random.random(tsteps)
+
+#  plot it all, note nice color scheme isn't figured out here yet.
+plt.scatter(x1,y1,cmap='seismic')
+plt.scatter(x2,y2,cmap='seismic')
+plt.scatter(x3,y3,cmap='seismic')
+plt.scatter(x4,y4,cmap='seismic')
+plt.scatter(x5,y5,cmap='seismic')
+plt.scatter(x6,y6,cmap='seismic')
+plt.show()
+
+###########################################################################
+##########      Problem #9:  Export XOR Dataframe to CSV      #############
+###########################################################################
+
+print('')
+print('Problem #9:  Export XOR Dataframe to CSV')
+print("********************************************")
+print('')
+
+# xor data 
+x1 = 2*np.random.random(150)-1
+x2 = 2*np.random.random(150)-1
+y=np.logical_xor(np.ceil(x1),np.ceil(x2))*1
+
+#  roll up all data into a dictionary with column lables and value lists
+dic={'x1':x1,"x2":x2,"y":y}
+#  create the dataframe from the dictionary
+df = pd.DataFrame(dic)
+
+print(df)
+
+#  write dataframe to csv without the first index column
+df.to_csv('xor.csv',index=False)
